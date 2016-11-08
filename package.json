@@ -1,0 +1,19 @@
+{
+  "name": "my_first_node",
+  "version": "1.0.0",
+  "description": "carlos roberto balam",
+  "main": "index.js",
+  "scripts": {
+    "test": "xd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  }
+}

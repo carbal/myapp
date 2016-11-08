@@ -1,0 +1,11 @@
+html
+    title pruebas de usuarios en jade
+body
+    table 
+        tr
+            th Nombre
+            th Apellido
+        each usuario in usuarios
+            tr
+                td=nombre
+                td=apellido
