@@ -2,10 +2,12 @@ html
     title pruebas de usuarios en jade
 body
     table 
-        tr
-            th Nombre
-            th Apellido
-        each usuario in usuarios
+        thead
             tr
-                td=nombre
-                td=apellido
+                th Nombre
+                th Apellido
+        tbody
+            each usuario in usuarios
+                tr
+                    td=usuario.nombre
+                    td=usuario.apellido

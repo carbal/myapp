@@ -24,6 +24,7 @@ app.get('/usuarios', function(req, res) {
         { nombre : 'nombre c', apellido : 'apellido c'}
     ];
 
+    console.log(usuarios);
     // llamamos a la vista y pasamos datos
     res.render('usuarios', { usuarios : usuarios });
 });
